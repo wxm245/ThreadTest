@@ -42,8 +42,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Interlock\Class1.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ResetEventTest\Class1.cs" />
     <Compile Include="SemaphoreSlim\SemaphoreSlimTest.cs" />
     <Compile Include="Wait\WaitPulseTest.cs" />
   </ItemGroup>

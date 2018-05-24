@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using ThreadTest.ResetEventTest;
+using ThreadTest.SemaphoreSlimA;
 using ThreadTest.Wait;
 
 namespace ThreadTest
@@ -11,7 +13,10 @@ namespace ThreadTest
     {
         static void Main(string[] args)
         {
-            WaitPulseTest.Run();
+
+            // SemaphoreSlimTest.Run();
+            //WaitPulseTest.Run();
+            MyResetEventTest.Run();
         }
     }
 }
